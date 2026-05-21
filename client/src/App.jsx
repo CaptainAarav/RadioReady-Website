@@ -15,7 +15,7 @@ function App() {
             </div>
             <a className="styled-btn">
               <i className="fa-brands fa-discord"></i>
-              <p className="nav-bar-add-text">Add to Discord</p>
+              <p className="styled-btn-text">Add to Discord</p>
             </a>
           </nav>
         </header>
