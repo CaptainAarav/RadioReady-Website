@@ -1,0 +1,97 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #20201E;
+}
+
+nav {
+  background-color: #30302E;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #6A6964;
+}
+
+.fa-tower-cell {
+  display: block;
+  font-size: 2rem;
+  color: white;
+  padding: 0.5rem 2.6rem 0.5rem 0.5rem;
+  background: #078AF5;
+  line-height: 1;
+  border-radius: 0.5rem;
+}
+
+
+.nav-bar-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-bar-links {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  color: #C2C0B6;
+}
+
+.nav-bar-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-bar-btn:hover, .nav-bar-btn:active {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.styled-btn {
+  border: 1px solid #6A6964;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.styled-btn-text {
+  background: none;
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  margin: 0;
+}
+
+.styled-btn:hover {
+  background-color: #20201E;
+}
+
+.home-section {
+  position: ;
+}
+
+.home-section-tag {
+  background: #078AF5;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: inherit;
+  position: relative;
+  top: -0.2rem;
+}
