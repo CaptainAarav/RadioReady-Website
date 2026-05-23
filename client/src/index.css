@@ -83,7 +83,9 @@ nav {
 }
 
 .home-section {
+  padding: 7rem 0;
   position: relative;
+  border-bottom: 1px solid #6A6964;
 }
 
 .home-section-tag {
@@ -102,10 +104,79 @@ nav {
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 4rem 2rem;
   color: white;
   text-align: center;
   font-size: inherit;
+}
+
+.syllabus-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #80AADD;
+  border-radius: 1rem;
+  background-color: #243E5F;
+}
+
+.syllabus-card-text {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.home-title {
+  font-size: 7rem;
+  margin: 0;
+}
+
+.home-title-span {
+  color: #078AF5;
+}
+
+.home-subtitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+  color: #C2C0B6;
+}
+
+.home-btns {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-facts {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.home-fact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.fact-main-text {
+  font-size: 3rem;
+  margin: 0;
+  color: #078AF5;
+}
+
+.fact-sub-text {
+  font-size: 1rem;
+  margin: 0;
+  color: #C2C0B6;
 }

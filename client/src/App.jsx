@@ -21,14 +21,13 @@ function App() {
         </header>
         <main>
           <section className="home-section">
-            <p className="home-section-tag">Home</p>
             <section className="home-main-content">
               <div className="syllabus-card">
                 <i className="fa-regular fa-star"></i>
-                <p>RSGB Foundation V1.6 syllabus</p>
+                <p className="syllabus-card-text">RSGB Foundation V1.6 syllabus</p>
               </div>
-              <h1>Ace your <span className="home-title-span">Foundation</span> amateur radio exam</h1>
-              <h2>RadioReady is a newly made discord bot that quizzes you on real RSGB Foundation exam questions without even having to leave discord aswell as tools like QCode and bandplan search up commands and a competative leaderboard.</h2>
+              <h1 className="home-title">Ace your <span className="home-title-span">Foundation</span> amateur radio exam</h1>
+              <h2 className="home-subtitle">RadioReady is a newly made discord bot that quizzes you on real RSGB Foundation exam questions without even having to leave discord aswell as tools like QCode and bandplan search up commands and a competative leaderboard.</h2>
               <section className="home-btns">
                 <a className="styled-btn">
                   <i className="fa-brands fa-discord"></i>
@@ -54,7 +53,7 @@ function App() {
                 </div>
                 <div className="home-fact">
                   <h4 className="fact-main-text">Free</h4>
-                  <p className="face-sub-text">Always</p>
+                  <p className="fact-sub-text">Always</p>
                 </div>
               </section>
             </section>
